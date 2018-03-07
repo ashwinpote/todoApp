@@ -1,0 +1,23 @@
+.mainContainer{
+  margin: 20px;
+}
+.todolist {
+  padding-left: 0;
+  margin-top: 20px;
+}
+.todolist .todoitem {
+  position: relative;
+  margin-bottom: 0.25rem;
+  padding: 0.5rem 2rem 0.5rem 0.5rem;
+}
+.todolist .todoitem.done .form-check-label {
+  color: #999;
+  text-decoration: line-through;
+}
+.todolist .todoitem .btn-danger {
+  position: absolute;
+  margin-left: 20px;
+}
+.todolist .todoitem .form-check-label .form-check-input {
+  margin-right: 1rem;
+}
